@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="0.25x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="0.5x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed3"
+                        android:layout_width="wrap_content"
+                        android:button="@null"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="0.75x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed4"
+                        android:layout_width="wrap_content"
+                        android:button="@drawable/ic_done_black_24px"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="Normal"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="1.25x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="1.5x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.2">
+
+                    <android.support.v7.widget.AppCompatCheckBox
+                        android:id="@+id/chkBx_speed7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtVw_speed7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.9"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="2x"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
